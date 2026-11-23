@@ -2,7 +2,7 @@
 
 A responsive personal profile page built with plain HTML, CSS and JavaScript, with no frameworks or libraries. It introduces me, lists the university units I've completed, and has an image gallery, an embedded video and a dark mode that remembers your choice.
 
-**Live demo:** _add your GitHub Pages link here_
+**Live demo:** https://mohinimeherin29.github.io/portfolio-profile-page/
 
 ## Features
 
@@ -37,7 +37,7 @@ A responsive personal profile page built with plain HTML, CSS and JavaScript, wi
 ## Run it locally
 
 ```bash
-git clone https://github.com/<your-username>/portfolio-profile-page.git
+git clone https://github.com/<mohinimeherin29>/portfolio-profile-page.git
 cd portfolio-profile-page
 ```
 
