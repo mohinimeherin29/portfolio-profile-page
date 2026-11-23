@@ -1,0 +1,139 @@
+/* Default font for whole page */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Italic styling for intro paragraph */
+#intro {
+    font-style: italic;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 3-column layout using CSS Grid */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #efefef;
+}
+
+/* Image styling */
+figure {
+    margin: 10px 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Video styling */
+video {
+    width: 100%;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    font-size: 0.9rem;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #2c2c2c;
+}
+
+body.dark-mode section {
+    background-color: #2c2c2c;
+    border-color: #555;
+}
+
+body.dark-mode th {
+    background-color: #555;
+}
+
+body.dark-mode td {
+    border-bottom-color: #555;
+}
+
+body.dark-mode tr:nth-child(even) {
+    background-color: #3a3a3a;
+}
+
+/* Button styling */
+#darkModeBtn, #swapImageBtn {
+    margin: 10px 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#darkModeBtn:hover, #swapImageBtn:hover {
+    background-color: #555;
+}
